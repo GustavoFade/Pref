@@ -1,20 +1,11 @@
-import Login from './style/Login'
-import './style/global.css';
+import Login from './pages/Login';
 
 function App() {
   return (
-    <>
-    <Login>
-      <label>Nome:</label>
-      <input type="text"></input>
-      
-      <label>Senha:</label>
-      <input type="password"></input>  
-
-      <a href="#">Entrar</a>
-    </Login>
-    </>
+    <Login />
   )
 }
 
 export default App;
+
+
