@@ -1,5 +1,7 @@
-import SLogin from '../style/style_login';
-import '../style/global.css';
+import React from 'react';
+
+import SLogin from './style_login';
+import '../../style/global.css';
 
 function Login() {
   return (
