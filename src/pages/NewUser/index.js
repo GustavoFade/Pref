@@ -1,10 +1,14 @@
 import React from 'react';
 
 
+
 function NewUser() {
   return (
     <>
-    <h1>Novo usuario</h1>
+    
+      <label>Nome:</label>
+      <input type="text"></input>
+    
     </>
   )
 }
