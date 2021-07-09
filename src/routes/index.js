@@ -8,7 +8,7 @@ import NewUser from '../pages/NewUser';
 function Routes() {
   return (
     <Switch>
-      <Route path="/"exact component={Login} />
+      <Route path="/" exact component={Login} />
       <Route path="/newuser" component={NewUser} />
     </Switch>
   )
