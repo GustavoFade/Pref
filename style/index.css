@@ -18,17 +18,7 @@ body{
     border-radius: 10px;
     box-shadow: -2px 15px 30px;
 }
-#div_registrar_externa{
 
-    height: 80vh;
-    width: 80vw;
-    min-height: 12em;
-    min-width: 12em;
-
-    border: 3px solid black;
-    border-radius: 10px;
-    box-shadow: -2px 15px 30px;
-}
 #form_login{
     display: grid;
     width: 100%;
@@ -54,4 +44,7 @@ body{
 #registrar_login:hover , #btn_login:hover{
     transition: 0.3s;
     background-color: rgba(170, 165, 165, 0.801);
+}
+.input_login_form{
+    border-radius: 5px;
 }
