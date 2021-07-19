@@ -1,0 +1,32 @@
+header{
+    box-sizing: border-box;
+    
+}
+li{
+    list-style: none;
+}
+a{
+    text-decoration: none;
+
+}
+ul{
+    display: flex;
+    flex-direction: row;
+    
+}
+#li_inicial{
+    flex-grow: 1;
+}
+#li_usuario{
+    flex-grow: 2;
+}
+#li_end{
+    flex-grow: 0;
+    margin-right: 10px;
+    
+}
+.menu{
+    padding: 2px;
+    margin: 10px 0px 10px 10px;
+    border: 1px black solid;
+}
