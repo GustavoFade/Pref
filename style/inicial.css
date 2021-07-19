@@ -1,3 +1,9 @@
+body{
+    height: 100vh;
+    width: 100vw;
+  
+
+}
 header{
     box-sizing: border-box;
     
@@ -5,17 +11,13 @@ header{
 li{
     list-style: none;
 }
-a{
-    text-decoration: none;
-
-}
 ul{
     display: flex;
     flex-direction: row;
     
 }
 #li_inicial{
-    flex-grow: 1;
+    flex-grow: 0;
 }
 #li_usuario{
     flex-grow: 2;
@@ -23,10 +25,27 @@ ul{
 #li_end{
     flex-grow: 0;
     margin-right: 10px;
+    justify-self: flex-end;
     
 }
 .menu{
     padding: 2px;
     margin: 10px 0px 10px 10px;
-    border: 1px black solid;
+    
+}
+a:hover{
+    transition: 0.3s;
+    background-color: rgba(170, 165, 165, 0.801);
+}
+a{
+    border: 2px black solid;
+    border-radius: 5px;
+    padding: 2px;
+    text-decoration: none;
+    
+}
+main{
+    display: grid;
+    justify-items: center;
+    
 }
