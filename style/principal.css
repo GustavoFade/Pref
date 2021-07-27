@@ -86,3 +86,12 @@ main{
     box-sizing: border-box;
 /* Usar relative depois */
 }
+td {
+    border: 1px solid black;
+    padding: 0.5em;
+    
+}
+#div_table{
+    margin-left: auto;
+    margin-right: auto;
+}

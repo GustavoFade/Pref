@@ -1,0 +1,102 @@
+body{
+  height: 100vh;
+  width: 100vw;
+  margin: 0;
+  padding: 0;
+ /*  background-color: rgba(206, 198, 198, 0.801);   */  
+  color: rgba(0, 0, 0, 0.918);
+
+  
+}
+header{
+  background-color: lightgrey;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100vw;
+  
+}
+
+footer{
+  background-color: lightgrey;
+  box-sizing: border-box;
+  display: inline-block;
+  width: 100vw;
+  text-align: center;
+  margin-top: 1.2%;
+}
+
+li{
+  list-style: none;
+  
+}
+ul{
+  display: flex;
+  flex-direction: row;
+}
+#li_inicial{
+  flex-grow: 0;
+}
+#li_usuario{
+  flex-grow: 2;
+}
+#li_end{
+  flex-grow: 0;
+  margin-right: 10px;
+  justify-self: flex-end;
+  
+}
+.menu{
+  padding: 2px;
+  margin: 10px 0px 10px 10px;
+  
+}
+.a_menu:hover{
+  transition: 0.3s;
+  background-color: rgba(170, 165, 165, 0.801);
+}
+.a_menu{
+  color: rgba(0, 0, 0, 0.918);
+  border: 2px black solid;
+  border-radius: 5px;
+  padding: 2px;
+  text-decoration: none;
+  
+}
+main{
+  display: grid;
+  margin-top: 1em;
+  margin-left: auto;
+  margin-right: auto;
+  justify-items: center;
+  box-sizing: border-box;
+/*     border: 2px black solid;
+*/    
+  height: 80vh;
+  width: 50vw;
+  min-height: 12em;
+  min-width: 12em;
+}
+#div_ext{
+/*     border: 2px black solid;
+*/    
+  height: 60vh;
+  width: 40vw;
+  min-height: 12em;
+  min-width: 12em;
+  box-sizing: border-box;
+/* Usar relative depois */
+}
+td {
+  border: 1px solid black;
+  padding: 0.4em;
+  text-align: center;
+  
+}
+#div_table{
+  margin-left: auto;
+  margin-right: auto;
+}
+img{
+  height: 1.5em;
+  width: 1.5em;
+}

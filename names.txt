@@ -1,0 +1,13 @@
+Pg index
+
+name = nome
+name = senha
+
+---------------
+
+Pg registrar
+
+name = nome_registrar
+name = login_registrar
+name = email_registrar
+name = senha_registrar
